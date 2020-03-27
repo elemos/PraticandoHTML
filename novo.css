@@ -1,0 +1,25 @@
+header{
+    background-color: #1c799d;
+    height: 80px;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+div.container{
+    
+    
+}
+
+div.corpo{
+    background-color: white;
+    min-height: 200px;
+}
+
+
+footer{
+    background-color: #1c799d;
+    height: 40px;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+}
