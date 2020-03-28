@@ -1,0 +1,32 @@
+/* Style CSS */
+
+*{ margin:0; padding:0; }
+header{ background: linear-gradient(135deg, #35b8b0 0%,#1c799d 100%); min-height: 90px; }
+footer{ background: linear-gradient(90deg, #dedede 0%,#e4e4e4 100%); color: #111; padding:20px 10px 20px 10px; font-size: 13px; text-align: center }
+body{ margin:0 !important; }
+
+/* IDs */
+#header_top { margin-left:-20px }
+#header_bottom { padding:20px; }
+#content { padding: 40px 10px; }
+#carouselCaptions { background-color:#000; }
+#overlay_hero { background-image: url('../img/overlay.png'); width: 100%; height: 100%; position:absolute;}
+#about {background-color: #fff; padding: 80px 0;}
+#books { background-color: #111; color:#ccc; padding: 80px 0; }
+#courses{ background-color: #f7f8fa; padding: 80px 0; }
+#visual_curriculum{ background-color: #fff; padding:50px 0; }
+
+#desafio_header{ background-image: linear-gradient(to bottom,#f7a10a , #fcc705); }
+
+/* Class */
+.img_top { margin-top:3px; }
+a.menu_top { color: #054860; margin-top:20px; }
+.dropdown-menu a.menu_top { margin-top:5px; }
+.destaque { color:#5fcac1 }
+.formacao { text-align: center; padding-bottom:20px }
+.language { position:absolute; top:1px; right:5px; z-index:9999;}
+.menu_hover{ padding:30px 20px; margin:-8px 0;}
+.menu_hover:hover{ background-color:#282c37; }
+.sombra{ text-shadow: 2px 2px 2px #111;  }
+.contador{ padding-bottom: 50px; text-align: center; font-size: 30px}
+.fb_dialog{ filter:alpha(opacity=50);opacity: 0.5;-moz-opacity:0.5;-webkit-opacity:0.5;}
