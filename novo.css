@@ -1,5 +1,6 @@
 header{
-    background-color: #1c799d;
+    
+    background-color: white;
     min-height: 95px;
 }
 div.container_nome{
@@ -15,12 +16,17 @@ nav.container_menu{
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
+    min-height: 26px;
 }
 nav.container_menu a{
     text-decoration: none;
     color:#111;
     text-shadow:  1px 1px  #bbbbbbbb;
-    padding: 10px;
+    padding: 15px;
+}
+nav.container_menu a:hover{
+    font-style: italic;
+    
 }
 
 div.corpo{
@@ -64,7 +70,6 @@ img.abc{
     vertical-align: middle;
     box-sizing: border-box;
 }
-
 div.titulo{
     flex: 0 0 60%;
     max-width: 60%;
@@ -90,7 +95,7 @@ div.Facademica{
     background: #f4f2fa;
 }
 div.container_FA{ 
-    max-width: 1300px;
+    max-width: 1800px;
     width: 100%;
     padding-right: 5px;
     padding-left: 5px;
@@ -99,6 +104,86 @@ div.container_FA{
     box-sizing: border-box;
     text-align: justify;
     font-size: 20px;
+}
+div.Interior_FA{
+    box-sizing: border-box;
+    display: flex;
+    
+}
+img.capelo{
+    position: relative;
+    left: 45%;  
+}
+div.text_FA{
+    padding: 10px;
+    text-align: center;
+   
+}
+button{
+    display: inline-block;
+    border-radius: 4px;
+    border-color: black;
+    background-color: #408cb0;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+button span {
+  cursor: pointer;
+  display:flex;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.5s;
+}
+button:hover span {
+  padding-right: 20px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+div.Mestrado{
+    margin: auto;
+    border-width:thick;
+    border-style: double;
+    border-color: black;
+    box-sizing: border-box;
+    
+    max-width: 30%;
+    flex: 0 0 30%;
+}
+div.Graduacao{
+    margin: auto;
+    border-width:thick;
+    border-style: double;
+    border-color: black;
+    box-sizing: border-box;
+    
+    max-width: 30%;
+    flex: 0 0 30%;
+}
+div.PEG{
+    margin: auto;
+    border-width:thick;
+    border-style: double;
+    border-color: black;
+    box-sizing: border-box;
+    
+    max-width: 30%;
+    flex: 0 0 30%;
 }
 
 div.ExpPro{
@@ -115,6 +200,7 @@ div.container_EP{
     text-align: justify;
     font-size: 20px;
 }
+
 div.container_cursos{ 
     max-width: 1300px;
     width: 100%;
@@ -126,6 +212,7 @@ div.container_cursos{
     text-align: justify;
     font-size: 20px;
 }
+
 footer{
     background-color: #1c799d;
     height: 40px;
