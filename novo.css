@@ -39,7 +39,6 @@ div.corpo{
     padding: px;
 }
 div.container_ap{ 
-    
     max-width: 900px;
     width: 100%;
     padding-right: 5px;
@@ -55,8 +54,8 @@ div.apresentação{
     flex-wrap: wrap;
 }
 div.foto{
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 50%;
+    max-width: 50%;
     max-height: 100%;
     position: relative;
     width: 100%;
@@ -74,14 +73,14 @@ img.abc{
     box-sizing: border-box;
 }
 div.titulo{
-    flex: 0 0 60%;
+    text-align: justify;
+    flex: 0 0 50%;
     max-width: 60%;
-    position: relative;
     width: 50%;
     min-height: 1px;
-    padding-right: px;
+    padding-right: 0 px;
     padding-left: 0px;
-    font-size: 15px;
+    font-size: 17px;
    
 }
 div.foto_titulo{
@@ -97,7 +96,7 @@ div.foto_titulo{
 /* Linha do Tempo da formação acadêmica */
 div.con_timeline{ 
     position: relative;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 2% 1%;
 }
@@ -226,7 +225,7 @@ div.conteudo{
 /* Conteúdo interno linha do tempo */
 img.capelo{
     position: relative;
-    left: 45%;  
+    
 }
 div.text_FA{
     padding: 10px;
@@ -234,7 +233,7 @@ div.text_FA{
    
 }
 div.Mestrado{
-    
+    color: re
     margin: auto;
     border-width:thick;
     border-style: double;
@@ -292,18 +291,68 @@ div.container_EP{
     font-size: 20px;
 }
 
-div.container_cursos{ 
-    max-width: 1300px;
+div.Hab{
+    max-width: 1400px;
     width: 100%;
     padding-right: 5px;
     padding-left: 5px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10px;
+    
+    box-sizing: border-box;
+}
+div.container_cursos{
+    position: relative;
+    width: 49%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    margin-right: 20px;
     box-sizing: border-box;
     text-align: justify;
     font-size: 20px;
+    float: left;
 }
-
+div.container_habpessoal{
+    position: relative;
+    width: 49%;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 20px;
+    float: right;
+}
+div.container_Skills {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+div.skills {
+    
+  text-align: right; /* Right-align text */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+div.comunicacao {width: 90%; background-color: #4CAF50;} /* Green */
+div.grupo {width: 90%; background-color: #4CAF50;} /* Green */
+div.lideranca {width: 80%; background-color: #4CAF50;} /* Green */
+div.html {width: 80%; background-color: #4CAF50;} /* Green */
+div.css {width: 80%; background-color: #4CAF50;} /* Blue */
+div.js {width: 60%; background-color: #2196F3;} /* Red */
+div.php {width: 20%; background-color: #f44336;} /* Dark Grey */
+div.C {width: 90%; background-color: #4CAF50;} /* Dark Grey */
+div.Cpp {width: 80%; background-color: #4CAF50;} /* Dark Grey */
+div.Csharp {width: 80%; background-color: #4CAF50;} /* Dark Grey */
+div.java {width: 80%; background-color: #4CAF50;} /* Dark Grey */
+div.Sc {width: 70%; background-color: #4CAF50;} /* Dark Grey */
+div.haskell {width: 70%; background-color: #4CAF50;} /* Dark Grey */
+div.prolog {width: 60%; background-color: #2196F3;} /* Dark Grey */
+div.python {width: 50%; background-color: #2196F3;} /* Dark Grey */
+div.unity {width: 80%; background-color: #4CAF50;} /* Dark Grey */
 footer{
     background-color: #1c799d;
     height: 40px;
