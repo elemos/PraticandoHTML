@@ -46,7 +46,7 @@ div.container_ap{
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
-    box-sizing: border-box;
+    
 }
 div.apresentação{
     box-sizing: border-box;
@@ -183,8 +183,7 @@ div.conteudo{
 
 /* Conteúdo interno linha do tempo */
 img.capelo{
-    position: relative;
-    
+    position: relative; 
 }
 div.text_FA{
     padding: 10px;
@@ -192,7 +191,7 @@ div.text_FA{
    
 }
 div.Mestrado{
-    color: re
+    
     margin: auto;
     border-width:thick;
     border-style: double;
@@ -235,20 +234,63 @@ button:hover span:after {
   right: 0;
 }
 
-div.ExpPro{
-    background-color: antiquewhite
-}
 div.container_EP{ 
-    max-width: 1300px;
+    position: relative;
+    max-width: 1400px;
     width: 100%;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    box-sizing: border-box;
-    text-align: justify;
+    height: 500px;
+    padding: 20px;
+    margin: 0 auto;
     font-size: 20px;
+    box-sizing: border-box;
+    
 }
+
+div.flip{
+    width: 450px;
+    height: 100%;
+    margin-left: 10px;
+    perspective: 1000px;
+}
+div.flip:hover div.inner{
+    border-width:thick;
+    border-style: double;
+    border-color: black;
+    transform: rotateY(180deg);
+}
+div.inner{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+}
+div.front, div.back{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+div.front{
+    padding-top: 80px;
+    border-width:thick;
+    border-style: double;
+    text-align: center;
+    color: black;
+    margin: auto;
+    
+}
+div.back {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    padding-top: 35px;
+    transform: rotateY(180deg);
+}
+
 
 div.Hab{
     max-width: 1400px;
