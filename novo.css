@@ -238,20 +238,22 @@ div.container_EP{
     position: relative;
     max-width: 1400px;
     width: 100%;
-    height: 500px;
-    padding: 20px;
+    height: 1000px;
+    padding: 10px;
     margin: 0 auto;
     font-size: 20px;
     box-sizing: border-box;
     
 }
-
 div.flip{
-    width: 450px;
-    height: 100%;
+    margin-top: 20px;
+    float: left;
+    width: 32%;
+    height: 47%;
     margin-left: 10px;
     perspective: 1000px;
 }
+
 div.flip:hover div.inner{
     border-width:thick;
     border-style: double;
@@ -341,6 +343,7 @@ div.skills {
 div.comunicacao {width: 90%; background-color: #4CAF50;} /* Green */
 div.grupo {width: 90%; background-color: #4CAF50;} /* Green */
 div.lideranca {width: 80%; background-color: #4CAF50;} /* Green */
+div.ingles {width: 80%; background-color: #4CAF50;} /* Green */
 div.html {width: 80%; background-color: #4CAF50;} /* Green */
 div.css {width: 80%; background-color: #4CAF50;} /* Blue */
 div.js {width: 60%; background-color: #2196F3;} /* Red */
